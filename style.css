@@ -119,6 +119,36 @@ a:hover {
     font-size: 25px;
 }
 
+@media screen and (max-width: 768px) {
+    .days {
+        padding: 10px;
+        font-size: 20px;
+    }
+    html {
+        scroll-behavior: smooth;
+        font-family: 'Merriweather', serif;
+        font-size: 15px;
+    }
+    .button {
+        padding: 20px 40px;
+    }
+  }
+
+@media screen and (max-width: 390px) {
+    .days {
+        padding: 10px;
+        font-size: 20px;
+    }
+    html {
+        scroll-behavior: smooth;
+        font-family: 'Merriweather', serif;
+        font-size: 15px;
+    }
+    .button {
+        padding: 20px 40px;
+    }
+  }
+
 .button {
     background-color: #ffffff;
     border: none;
@@ -135,4 +165,41 @@ a:hover {
 
 .day-1-video {
     padding-bottom: 50px;
+}
+
+.about-image {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+  
+.about-image-middle{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 30px;
+    margin-bottom: 0px;
+}
+
+.about-image-middle img{
+    height: 281px;
+    border-radius: 15%;
+    border: 5px solid var(--white);
+}
+
+.about-image img{
+    height: 281px;
+    border-radius: 5%;
+}
+
+@media (max-width: 500px){
+.about-image img{
+    height: 150px;
+}
+.about-image-middle img{
+    height: 119px;
 }
