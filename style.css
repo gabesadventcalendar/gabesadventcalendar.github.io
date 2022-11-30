@@ -163,6 +163,15 @@ a:hover {
     font-weight: 200;
   }
 
+.button-1 {
+    margin: 0;
+    position: absolute;
+    top: 800px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 .day-1-video {
     padding-bottom: 50px;
 }
