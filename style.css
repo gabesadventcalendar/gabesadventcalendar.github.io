@@ -30,7 +30,7 @@ html {
     font-family: 'Merriweather', serif;
     font-weight: 200;
     font-size: 50px;
-    padding-top: 400px;
+    padding-top: 450px;
     padding-bottom: 400px;
     text-align: center;
 }
@@ -41,6 +41,24 @@ html {
     font-size: 20px;
     line-height: 50px;
     padding-bottom: 50px;
+}
+
+.thin-font-4 {
+    font-family: 'Merriweather', serif;
+    font-weight: 200;
+    font-size: 50px;
+    padding-top: 200px;
+    /* padding-bottom: 50px; */
+    text-align: center;
+}
+
+.angry-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 300px;
+    height: 300px;
 }
 
 /* unvisited link */
