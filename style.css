@@ -52,6 +52,14 @@ html {
     text-align: center;
 }
 
+.thin-font-5 {
+    font-family: 'Merriweather', serif;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 40px;
+    padding-bottom: 0px;
+}
+
 .angry-image {
     display: block;
     margin-left: auto;
@@ -222,4 +230,22 @@ a:hover {
 .about-image-middle img{
     height: 119px;
 }
+}
+.child > img{
+    width: 300px;
+}
 
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.child{
+    display: flex;
+    flex: 40%;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+}
