@@ -31,7 +31,7 @@ html {
     font-weight: 200;
     font-size: 50px;
     padding-top: 450px;
-    padding-bottom: 400px;
+    padding-bottom: 5em;
     text-align: center;
 }
 
@@ -248,4 +248,25 @@ a:hover {
     padding: 10px;
     align-items: center;
     flex-direction: column;
+}
+
+@media (max-width: 500px){
+    .child > img{
+        width: 200px;
+    }
+    .child{
+        display: flex;
+        flex: 70%;
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .thin-font-5 {
+        font-family: 'Merriweather', serif;
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 40px;
+        padding-bottom: 0px;
+    }
 }
